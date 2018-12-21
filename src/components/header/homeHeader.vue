@@ -10,7 +10,7 @@
 
            <section class="home-item1">
               <div>
-                  <img src="">
+                  <img src="../../images/homeHeader/homeHeader03.svg">
                   <span></span>
               </div>
           </section>
@@ -56,6 +56,27 @@ export default {
             background-position-x:-6.5rem;
             padding-left:2rem; 
             color: white
+        }
+    }
+    .home-item1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+            position: relative;
+            img{
+                @include wh(1.8rem,1.8rem)
+            }
+            span{
+                position: absolute;
+                @include wh(1rem,1rem);
+                background: red;
+                @include borderRadius(1rem);
+                top:0;
+                right:-0.3rem;  
+               
+                    
+            }
         }
     }
 </style>
