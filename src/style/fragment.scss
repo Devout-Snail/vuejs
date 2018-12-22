@@ -1,6 +1,7 @@
 $red: #FF0000;  
-
-
+$w:white;
+$bgcolor:rgb(66, 66, 61);
+$line:#8B8682;
 // 背景图片地址和大小
 @mixin bis($url) { 
 	background-image: url($url);

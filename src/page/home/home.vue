@@ -113,7 +113,6 @@ export default {
     #main{
         display: flex;
         justify-content: center;
-        @include wh(100%,40rem);
-        padding-bottom:3rem 
+        @include wh(100%,50rem);
     }
 </style>
